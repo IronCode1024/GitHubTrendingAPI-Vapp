@@ -1,0 +1,62 @@
+/* pages/trendings/trendings.wxss */
+.header{
+    width: 100%;
+    height: 180px;
+    margin-bottom:-70px; 
+    background: url("https://mmbiz.qpic.cn/mmbiz_jpg/Ziac3JNhwAiamZicnibjSQaxlO5KzHECIc6X0hlicA7CoQ2cSbxNEV7iaIribn0fyz0dZlZSVoEXBF9UGVOHpWJebqiaow/0?wx_fmt=jpeg");
+}
+.master{
+    z-index: 99999;
+    /* margin-left: 1rem; */
+    /* align-items: center;
+    justify-content: center; */
+    margin: 3.7%;
+    /* border: 1px solid ; */
+    width: 92%;
+    height: 100%;
+}
+.sonlist{
+    display: flex;
+    width: 100%;
+    height: 9rem;
+    background-color: white;
+    border: 1px solid blue;
+    border-radius: 0.5rem;
+    margin-top: 20px;
+    padding-top:10px; 
+}
+.left{
+    margin-left: 10px;
+    width: 67%;
+}
+.titles{
+    font-weight: bold;
+    font-size: 1rem;
+}
+.explain{
+    margin-top:20rpx;
+    width: 100%;
+    word-break: keep-all;
+    word-wrap: break-word;
+    height: 5rem;
+    font-size: 0.9rem;
+}
+.languagetab{
+    font-size: 0.8rem;
+}
+.rigth{
+    float: rigth;
+    margin-left: 10px;
+    margin-right: 15px;
+    width:80px;
+    height:80px;
+    align-content: center;
+    text-align: center;
+}
+.rigth text{
+    font-size: 12px;
+}
+
+.rigthImg{
+    border-radius: 10rpx;
+}
